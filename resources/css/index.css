@@ -1,0 +1,100 @@
+body {
+    margin: 0 10%;
+}
+
+section {
+    margin: 40px 0;
+    border: 3px solid black;
+    padding: 40px;
+}
+
+section > * {
+    margin-left: 30px;
+}
+
+
+.colors > div{
+    width: 100%;
+    margin-left: 14%;
+}
+
+.colors div > div {
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    margin: 20px 20px;
+}
+
+.colors div p {
+    text-align: center;
+}
+
+.color_1 {
+    background-color: #C2DED1;
+}
+
+.color_2 {
+    background-color: #ECE5C7;
+}
+
+.color_3 {
+    background-color: #CDC2AE;
+}
+
+.color_4 {
+    background-color: #354259;
+}
+
+.color_name {
+    margin-top: 80px;
+}
+
+.font_1 * {
+    font-family: Lobster, cursive;
+}
+
+.font_2 * {
+    font-family: Karla, sans-serif;
+}
+
+.font_3 * {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fonts div > p {
+    margin-left: 30px;
+}
+
+.fonts > div {
+    margin-left: 60px;
+}
+
+.text_styles > * :not(.text_styles_header) {
+    margin-left: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Karla', sans-serif;
+}
